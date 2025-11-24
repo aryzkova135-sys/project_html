@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "title": "Товар 1",
+    "vendor_code": "111",
+    "price": 500,
+    "img": "https://aryzkova135-sys.github.io/2025_BWT/html_site0/книга1.jpeg"
+  },
+  {
+    "id": "2",
+    "title": "Товар 2",
+    "vendor_code": "222",
+    "price": 600,
+    "img": "https://aryzkova135-sys.github.io/2025_BWT/html_site0/книга2.jpeg"
+  },
+  {
+    "id": "3",
+    "title": "Товар 3",
+    "vendor_code": "333",
+    "price": 800,
+    "img": "https://aryzkova135-sys.github.io/2025_BWT/html_site0/каталог1.jpeg"
+  },
+  {
+    "id": "4",
+    "title": "Товар 4",
+    "vendor_code": "444e",
+    "price": 400,
+    "img": "https://aryzkova135-sys.github.io/2025_BWT/html_site0/каталог3.jpeg"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Товар 5",
+    "vendor_code": "4445e",
+    "price": 600,
+    "img": "https://aryzkova135-sys.github.io/2025_BWT/html_site0/каталог4.jpeg"
+  },
+  {
+    "id": "6",
+    "title": "Товар 6",
+    "vendor_code": "4446e",
+    "price": 800,
+    "img": "https://aryzkova135-sys.github.io/2025_BWT/html_site0/каталог5.jpeg"
+  },
+  {
+    "id": "7",
+    "title": "Товар 7",
+    "vendor_code": "4447e",
+    "price": 700,
+    "img": "https://api.bookmate.ru/assets/books-covers/1e/63/EAX166km-ipad.jpeg?image_hash=6cc1ad47de8556a28d56ef4ee938d5f0"
+  },
+  {
+    "id": "8",
+    "title": "Товар 8",
+    "vendor_code": "4448e",
+    "price": 800,
+    "img": "https://api.bookmate.ru/assets/books-covers/76/6d/a2rpkYAn-ipad.jpeg?image_hash=bf9c833e089d21875f6b6777d93a43f8"
+  }
+]
