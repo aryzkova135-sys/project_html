@@ -4,105 +4,119 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- ширина равна области просмотра экрана устройства, начальный масштаб стринцы - 1:1, name="viewport" - управление областью просмотра страницы -->
     <title>О магазине</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <!-- подключение будстрэпа, rel="stylesheet" - стиль страницы, остальное для безопасности, crossorigin="anonymous" - данные не передаются -->
 </head>
 
 <body>
-    <div class="container">
-
-        <header class="card card-header" style="...">
-            <div class="card-body">
+    <div class="container" style="color: firebrick; font-family: Georgia, 'Times New Roman', Times, serif;"> <!-- бутстрап класс, центрирование, отступы-->
+        <header class="card card-header" style="background-color:lightpink;"> <!-- карточный компонент, задает фоновый цвет и отступы -->
+            <div class="card-body"> <!-- внутренний контейнер для контента -->
                 <h3 class="card-title text-center" id="start">книжный магазин<br>словоткань</h5>
             </div>
         </header>
 
         <div class="card text-center">
-            <div class="card-header">
-                <ul class="nav nav-pills card-header-pills">
+            <div class="card-header" style="background-color: firebrick;">
+                <ul class="nav nav-pills card-header-pills"> <!-- создание кнопок -->
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">О магазине</a>
+                        <a class="nav-link" style="color: lightpink;" href="index.html">О магазине</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Полка</a>
+                        <a class="nav-link" style="color: lightpink;" href="shop.html">Полка</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="order.html">Вакансии</a>
+                        <a class="nav-link" style="color: lightpink;" href="order.html">Вакансии</a>
                     </li>
-                    <li class="nav-item"><a class="navbar-brand" href="index.html"><img
-                                src=https://img.freepik.com/premium-psd/isolated-3d-heart-icon-front-view_92267-771.jpg
+                    <li class="nav-item"><a href="index.html"><img
+                                src="photo.png"
                                 height="50"></a></li>
                 </ul>
             </div>
 
-            <h5 class="card-title">мы - независимый книжный!</h5>
-            <div class="navbar bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#history">История магазина</a>
-                </div>
-                <nav class="navbar bg-body-tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#about_us">Наша продукция</a>
-                    </div>
-                </nav>
-
-                <div class="card-body">
-                    <p class="card-text" class="text-wrap" id="history">«Словоткань» – основанный в 1926 году книжный
-                        магазин в центре
-                        Петербурга. Традиции
-                        петербургской книжной торговли мы сочетаем с современными европейскими тенденциями. Наши
-                        сотрудники,
-                        увлеченные эксперты-книгоголики, всегда готовы обсудить с вами новинки и любимую классику –
-                        кстати,
-                        они будут особенно счастливы посоветовать что-нибудь совершенно неожиданное, поделиться адресом
-                        любимого бара и, конечно, познакомиться с вашей собакой (мы вопиюще дог-френдли, кэт-френдли и
-                        вообще всем животным рады).</p>
-
-                    <div class="text-md-start" class="rounded float-start">
-                        <img src="https://i.pinimg.com/736x/c6/15/2e/c6152e576dfbcdc764891958c6a80962.jpg"
-                            class="rounded" alt="мы любим книги" width="325" height="375">
-                    </div>
-
-                    <div class="navbar bg-body-tertiary">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#start">К началу страницы</a>
-                        </div>
-
-                        <p class="text-wrap" id="about_us">
-                            На полках «Словоткань» – прежде всего интеллектуальная литература: художественная проза,
-                            книги
-                            по
-                            философии и истории, литературоведению и теории театра и кино. Особое внимание мы уделяем
-                            отделу
-                            искусствоведения и книгам для детей всех возрастов. Мы предлагаем большой выбор журналов, а
-                            также
-                            канцелярии и сувениров.
-
-                            В 2014 году мы запустили собственное канцелярское и сувенирное производство («Словоткань»).
-                            Совместно с лучшими современными дизайнерами и иллюстраторами мы изготавливаем тетради и
-                            блокноты,
-                            конверты и закладки, а также шоперы и металлические значки.
-                        </p>
-
-                        <div class="text-md-start" class="rounded float-start"><img
-                                src="https://i.pinimg.com/736x/5c/c4/8d/5cc48da80c989e9aa5eb20e1ba4f7211.jpg"
-                                alt="фотография магазина 2" width="325" height="375"> </div>
-                    </div>
-
-                    <div class="navbar bg-body-tertiary">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#start">К началу страницы</a>
-                        </div>
+            <h5 class="card-title mt-2" style="color: firebrick;">мы - независимый книжный!</h5>
+            <nav class="navbar navbar-expand bg-body-tertiary">
+                <!-- navbar expand - всегда развернутый, tertiary - цвет-->
+                <div class="container-fluid"> <!-- растягивает контейнер на всю ширину, добавляет отступы-->
+                    <div class="navbar-nav"> <!-- контейнер для навигации-->
+                        <a class="nav-link me-3" href="#history" style="color: firebrick;">
+                            <!-- стилизация ссылок, me - margin end - отступ справа для след. элемента -->
+                            История магазина
+                        </a>
+                        <a class="nav-link" href="#about_us" style="color: firebrick;">
+                            Наша продукция
+                        </a>
                     </div>
                 </div>
-            </div>
+            </nav>
 
-            <footer class="card card-footer">
-                <div class="card-body">
-                    <p>словоткань 2025</p>
-                </div>
-            </footer>
+            <div class="container">
+    <!-- Первая секция - История магазина -->
+    <div class="card mb-4"> <!-- mb - отступ снизу-->
+        <div class="card-body" style="background-color: lightpink;">
+            <!-- Изображение с обтекающим текстом -->
+            <img src="https://i.pinimg.com/736x/c6/15/2e/c6152e576dfbcdc764891958c6a80962.jpg"
+                class="rounded float-start me-3 mb-3" 
+                alt="мы любим книги!" 
+                width="325" height="375">
+
+            <!-- Текст -->
+            <p class="card-text text-wrap" id="history" style="color: firebrick;">
+                «Словоткань» – основанный в 1926 году книжный магазин в центре
+                Петербурга. Традиции петербургской книжной торговли мы сочетаем
+                с современными европейскими тенденциями. Наши сотрудники,
+                увлеченные эксперты-книгоголики, всегда готовы обсудить с вами
+                новинки и любимую классику – кстати, они будут особенно счастливы
+                посоветовать что-нибудь совершенно неожиданное, поделиться адресом
+                любимого бара и, конечно, познакомиться с вашей собакой
+                (мы вопиюще дог-френдли, кэт-френдли и вообще всем животным рады).
+            </p>
+        </div>
+    </div>
+    <div class="bg-body-tertiary py-2">
+        <div class="container-fluid text-center">
+            <a class="btn btn-outline-dark" href="#start">
+                ↑ К началу страницы
+            </a>
+        </div>
+    </div>
+    <!-- Вторая секция - Наша продукция -->
+    <div class="card mb-4">
+        <div class="card-body" style="background-color: lightpink;">
+            <!-- Изображение с float -->
+            <img src="https://i.pinimg.com/736x/5c/c4/8d/5cc48da80c989e9aa5eb20e1ba4f7211.jpg"
+                class="rounded float-start me-3 mb-3" 
+                alt="Ассортимент книг и канцелярии в магазине Словоткань" 
+                width="325" height="375">
+
+            <!-- Текст -->
+            <p class="card-text text-wrap" id="about_us" style="color: firebrick;">
+                На полках «Словоткань» – прежде всего интеллектуальная литература: художественная проза,
+                книги по философии и истории, литературоведению и теории театра и кино. Особое внимание мы уделяем
+                отделу искусствоведения и книгам для детей всех возрастов. Мы предлагаем большой выбор журналов, а
+                также канцелярии и сувениров.
+
+                В 2014 году мы запустили собственное канцелярское и сувенирное производство («Словоткань»).
+                Совместно с лучшими современными дизайнерами и иллюстраторами мы изготавливаем тетради и
+                блокноты, конверты и закладки, а также шоперы и металлические значки.
+            </p>
+        </div>
+    </div>
+    <div class="bg-body-tertiary py-2">
+        <div class="container-fluid text-center">
+            <a class="btn btn-outline-dark" href="#start">
+                ↑ К началу страницы
+            </a>
+        </div>
+    </div>
+</div>
+    <footer class="card card-footer" style="background-color: lightpink;">
+        <div class="card-body  text-center">
+            <p>словоткань 2025</p>
+        </div>
+    </footer>
 
 </body>
